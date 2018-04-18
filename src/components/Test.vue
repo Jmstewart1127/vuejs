@@ -1,10 +1,15 @@
 <template>
-  <h3>YO This is a test cuh</h3>
+  <h3>{{ header }}}</h3>
 </template>
 
 <script>
 export default {
-  name: 'Test'
+  name: 'Test',
+  data () {
+    return {
+      header: 'YO THIS BE A TEST CUH'
+    }
+  }
 }
 </script>
 
